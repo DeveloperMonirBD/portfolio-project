@@ -25,6 +25,11 @@
 .dark-3 {
     color: #757575;
 }
+.logo-img{
+    width: 45px;
+    margin: 0;
+    padding: 0;
+}
 
 .btn-primary {
     background-color: #FD6E0A;
@@ -45,12 +50,18 @@
     font-size: 18px;
     color:#757575;
 }
+.text-center{
+    text-align: center;
+}
+.text-start{
+    text-align:start
+}
 
 /* header */
 .header {
     background-image: url("../images/developer.png"), url("../images/header_bg.png");
     background-repeat: no-repeat;
-    background-position: top left, bottom right;
+    background-position: left, bottom right;
 }
 
 /* nav styles */
@@ -107,6 +118,10 @@ nav li a {
 main{
   max-width: 1140px; 
   margin: 0 auto; 
+  background-color: #fff;
+}
+main section{
+    margin-top: 130px;
 }
 
 
@@ -115,7 +130,16 @@ main{
     border-radius: 10px;
     padding: 130px 150px;
     text-align: center;
-    margin-top: 123px;
+    /* margin-top: 123px;
+    margin-bottom: 130px; */
+}
+.section-title{
+    margin: 15px 0px 0px;
+}
+.about-area{
+    background-color: #fff;
+    border: 2px solid #ddd;
+    padding: 0px 10px 10px;
 }
 .about-items{
     display: flex;
@@ -127,4 +151,20 @@ main{
 .item-description{
     font-weight: 600;
     color:#181818;
+}
+
+
+/* What i do section */
+.skills-content{
+    padding: 0px 150px 50px;
+    text-align: center;
+}
+.skills-container {
+    display: flex;
+    gap: 24px;
+}
+.skills{
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06)
 }
